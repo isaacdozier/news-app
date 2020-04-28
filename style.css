@@ -1,53 +1,5 @@
-.problem{
-    font-size: 16px;
-}
-
-.dropbtn {
-    min-width: 160px;
-    background-color: #3498DB;
-    color: white;
-    padding: 4px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-}
-
-.dropbtn:hover, .dropbtn:focus {
-    background-color: #2980B9;
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.difficulty-content {
-    display: none;
-    position: absolute;
-    min-width: 160px;
-    overflow: auto;
-    z-index: 1;
-}
-
-.difficulty-content button {
-    min-width: 160px;
-    color: black;
-    padding: 4px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown button:hover {background-color: #ddd;}
-
-.show {display: block;}
-
-.highlight{
-    color: yellow;
-    background-color: grey;
-    font-size: 28px;
-}
-
-.game{
-    border: 1px solid #c5c5b5;
-    background-color: #ffffeb;
+#content {
+    margin: 12px;
+    padding: 12px;
+    border: 1px solid grey;
 }

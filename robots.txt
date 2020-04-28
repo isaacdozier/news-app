@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://isaacdozier.com/solve-X.xml
+Sitemap: https://isaacdozier.com/news-app.xml

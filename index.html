@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
     <!-- Required meta tags -->
 	  <meta charset="utf-8">
@@ -9,13 +8,13 @@
 	  <meta name="google-site-verification" content="uJR2CtLfEeJzY_YhV5_WJblf7qss1CqYEMBVgznWnlU" />
 	  
 	 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	 	<meta name="description" content="Practice solving simple Algebra equations. Test your skills with the streak counter, or up the difficulty level." />
+	 	<meta name="description" content="" />
 		<meta name="author" content="Isaac Dozier">
-		<meta itemprop="name" content="Solve for X">
+		<meta itemprop="name" content="Simple News App">
 		<meta itemprop="image" content="">
 		<meta name="mobile-web-app-capable" content="yes">
 		<meta id="theme-color" name="theme-color" content="#000000">
-		<link rel="canonical" href="https://isaacdozier.com/solve-X/"/>
+		<link rel="canonical" href="https://isaacdozier.com/news-app/"/>
 		<base target="_blank">
 		<link rel="shortcut icon" href="favicon.ico" /> 
 		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/icon.png" />
@@ -30,92 +29,48 @@
 		<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 		<script data-ad-client="ca-pub-9409668607681174" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     </script>
-    <title>Algebra Game - Practice Solving for X</title>
+    <title>Simple News App</title>
   </head>
 
-  <body id="body" onload="init(), load()">
-    <div class="container">
-      <div class="row header">
-        <div class="col">
-          <h1>Algebra - <span id="title"></span></h1>
-        </div>
+  <body id="body">
+    <div class="row header">
+      <div class="col">
+        <h1>Simple News App</h1>
       </div>
-  
-      <div class="row game">
-        <div class="col">
-          <br />
-          <div class="problem" class="row"> 
-            <div class="col-lg" style="text-align: right">
-              <span id ="A"> </span> 
-              <span id ="A_sign"> </span> 
-              <span id ="X" class="X"> </span>
-                                    =
-               <span id ="solution"> </span>
-               <br />
-               <span id ="user_text"></span>
-               <br />
-              
-              <span class="X">X</span> = 
-              <input type="text" autofocus="autofocus" autocomplete="off" style="width: 30px" id="input" value="">
-              <br /><br />
-            
-              <span id="input_btn">
-                <button id="btn" onclick="send()">Calculate</button>
-              </span>
-            </div>
-            <br />
-          </div>
-        </div>
-        
-        <div class="col">
-          <br />
-          Best Streak: <span id="best_streak"></span>
-          <br />
-          Current Streak: <span id="current_streak"></span>
-          <br />
-          Your Score: <span id="score_pass" style="color: green">0</span> / <span id="score_fail" style="color: red">0</span>
-          <br />
-        
-          <br />
-          <!--<input type="checkbox" id="no=negative" checked> No Negative #'s<br>-->
-          <button onclick="difficulty()" class="dropbtn">Difficulty: x<span id="level">1</span></button>
-            <div id="difficulty" class="difficulty-content">
-              <button onclick="update_difficulty('1')">Easy</button>
-              <button onclick="update_difficulty('10')">Novice</button>
-              <button onclick="update_difficulty('100')">Expert</button>
-              <button onclick="update_difficulty('1000')">Master</button>
-            </div>
-          </div>
-          <br />
-      </div>
-     
-      
-      <div class="row footer">
-				<div class="col">
-					<p>
-               Solve-X Algebra Game _ v1.2.1-beta
-             <br/>
-						   Developement In-Progress
-						 <br />
-						   Works best on Chrome & Firefox
-						 <br />
-						   Built by <a href="http://isaacdozier.com">Isaac Dozier</a> <br /> 
-					</p>
-				</div>
-			</div>
     </div>
+
+    <div class="container">
+      <div class="col">
+        <div id="content"></div>
+      </div>
+    </div>
+     
+    <div class="row footer">
+			<div class="col">
+				<p>
+           News App _ v1.0.0-beta
+         <br/>
+  			   Developement In-Progress
+  			 <br />
+  			   Works best on Chrome & Firefox
+  			 <br />
+  			   Built by <a href="http://isaacdozier.com">Isaac Dozier</a> <br /> 
+				</p>
+			</div>
+		</div>
+
     <!-- Link Javascript file -->
     <script src="src.js"></script>
     
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123418149-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-  
-    gtag('config', 'UA-123418149-1');
-  </script>
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123418149-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-123418149-1');
+    </script>
   </body>
 
 </html>

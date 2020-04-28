@@ -1,1 +1,1 @@
-solve for X algebra app
+news app
